@@ -1,3 +1,4 @@
+
 """Launch PowerShell in a selected directory."""
 
 from __future__ import annotations
@@ -38,15 +39,16 @@ def open_powershell() -> None:
     subprocess.Popen([exe, "-NoExit", "-Command", cmd], **kwargs)
 
 
+
 def main() -> None:
     root = tk.Tk()
     root.title("PowerShell Launcher")
     tk.Button(root, text="Open PowerShell", command=open_powershell).pack(
         padx=10, pady=10
     )
+
     root.mainloop()
 
 
 if __name__ == "__main__":
     main()
-

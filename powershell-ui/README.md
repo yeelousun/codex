@@ -1,12 +1,12 @@
 # PowerShell UI
 
-A simple cross-platform Tkinter application that opens a PowerShell session and allows interactive command execution.
+A tiny Tkinter helper that launches a PowerShell session in a directory you choose.
 
 ## Features
 
-- Choose a local directory and send `Set-Location` to PowerShell.
-- Open a PowerShell subprocess and interact with it through a GUI.
-- Send arbitrary commands and see the output streamed in the window.
+- Pick a local directory using a file dialog.
+- Open PowerShell in that directory and keep the shell open for further commands.
+
 
 ## Usage
 
